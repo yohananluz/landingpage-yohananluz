@@ -210,6 +210,7 @@ h4 {
     font-weight: 600;
     color: var(--text-primary);
     background: var(--accent-gradient);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -298,6 +299,7 @@ section {
 .name {
     font-size: 5rem;
     background: var(--accent-gradient);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0.5rem;
@@ -483,6 +485,7 @@ section {
     font-size: 3.5rem;
     font-weight: 800;
     background: var(--accent-gradient);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1;

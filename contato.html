@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Yohanan Luz</title>
+    <meta name="description" content="Entre em contato com Yohanan Luz. Conheça minhas redes sociais e envie uma mensagem.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Container dos Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <!-- Container da Seção de Navegação (Navbar) -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none;"><span class="logo-text">&lt;Yohanan/&gt;</span></a>
+        </div>
+        <nav class="nav-links" aria-label="Navegação Principal">
+            <ul>
+                <li><a href="index.html#home">Início</a></li>
+                <li><a href="index.html#about">Sobre</a></li>
+                <li><a href="index.html#skills">Habilidades</a></li>
+                <li><a href="index.html#projects">Projetos</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="nav-actions">
+            <!-- Container do Botão de Tema -->
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar Tema">
+                <i class="fas fa-sun"></i>
+            </button>
+            <!-- Container do Botão de Menu Mobile -->
+            <button class="mobile-menu-btn" aria-label="Menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Container Principal da Página -->
+    <main>
+        <!-- Container da Seção de Contato -->
+        <section id="contact" class="contact" style="padding-top: 150px; min-height: 80vh;">
+            <div class="section-heading">
+                <h2>Vamos Conversar?</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-container glass-panel">
+                <div class="contact-info">
+                    <h3>Entre em Contato</h3>
+                    <p>Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades de parceria e networking. Acompanhe também o meu trabalho pelas redes sociais!</p>
+                    <div class="contact-details">
+                        <!-- Container de Detalhe de Email -->
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@yohanan.dev</span>
+                        </div>
+                        <!-- Container de Detalhe de Localização -->
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Brasil</span>
+                        </div>
+                    </div>
+                    <!-- Container de Redes Sociais -->
+                    <div class="social-links" style="margin-top: 2.5rem; justify-content: flex-start;">
+                        <a href="https://github.com/yohananluz" target="_blank" rel="noopener" aria-label="GitHub (abre em uma nova aba)"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/yohananluz" target="_blank" rel="noopener" aria-label="LinkedIn (abre em uma nova aba)"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/yohananluz" target="_blank" rel="noopener" aria-label="Instagram (abre em uma nova aba)"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- Container do Formulário de Contato -->
+                <form class="contact-form" action="#" method="POST">
+                    <!-- Container do Campo Nome -->
+                    <div class="form-group">
+                        <label for="form-nome" class="sr-only">Seu Nome</label>
+                        <input type="text" id="form-nome" name="nome" placeholder="Seu Nome" required>
+                    </div>
+                    <!-- Container do Campo Email -->
+                    <div class="form-group">
+                        <label for="form-email" class="sr-only">Seu Email</label>
+                        <input type="email" id="form-email" name="email" placeholder="Seu Email" required>
+                    </div>
+                    <!-- Container do Campo Mensagem -->
+                    <div class="form-group">
+                        <label for="form-mensagem" class="sr-only">Sua Mensagem</label>
+                        <textarea id="form-mensagem" name="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <!-- Container do Botão Enviar -->
+                    <button type="submit" class="btn btn-primary w-100">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Container da Seção de Rodapé (Footer) -->
+    <footer>
+        <p>&copy; 2026 Yohanan Luz. Todos os direitos reservados.</p>
+        <p class="made-with">Feito com <i class="fas fa-code"></i> e paixão</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
